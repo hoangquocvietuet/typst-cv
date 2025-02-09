@@ -1,3 +1,4 @@
+
 // Imports
 #import "../../lib.typ": cvSection, cvSkill, hBar
 #let metadata = toml("../metadata.toml")
@@ -6,22 +7,27 @@
 
 #cvSection("Skills")
 
+// #cvSkill(
+//   type: [Languages],
+//   info: [Vietnamese #hBar() English],
+// )
+
 #cvSkill(
-  type: [Languages],
-  info: [Vietnamese #hBar() English #hBar() Japanese (Learning)],
+  type: [Programming Languages],
+  info: [C/C++ #hBar() Python #hBar() Javascript #hBar() Typescript #hBar() Solidity],
 )
 
 #cvSkill(
-  type: [Tech Stack],
-  info: [C/C++ #hBar() Python #hBar() Golang #hBar() Flutter #hBar() Rust #hBar() Linux],
+  type: [Tools],
+  info: [Linux #hBar() Git #hBar() Pytorch #hBar() Hardhat #hBar() Foundry],
 )
 
-#cvSkill(
-  type: [Personal Interests],
-  info: [Productivity #hBar() Linux Customization #hBar() Knowledge Management],
-)
+// #cvSkill(
+//   type: [Personal Interests],
+//   info: [Productivity #hBar() Linux Customization #hBar() Knowledge Management],
+// )
 
 #cvSkill(
   type: [Competitive Programming],
-  info: [#link("https://codeforces.com/profile/_LNHTD_")[Codeforces] #hBar() #link("https://atcoder.jp/users/HynDuf")[Atcoder] #hBar() #link("https://www.codechef.com/users/hynduf")[Codechef]],
+  info: [#link("https://codeforces.com/profile/lanhf")[Codeforces] #hBar() #link("https://stats.ioinformatics.org/people/7656")[IOI]],
 )

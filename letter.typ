@@ -1,6 +1,6 @@
 /*
-* Functions for the CV template
-*/
+ * Functions for the CV template
+ */
 
 #import "./utils/styles.typ": *
 
@@ -28,9 +28,7 @@
     text(fill: accentColor, weight: "bold", underline(str))
   }
 
-  letterHeaderNameStyle(metadata.personal.first_name + " " + metadata
-    .personal
-    .last_name)
+  letterHeaderNameStyle(metadata.personal.first_name + " " + metadata.personal.last_name)
   v(1pt)
   letterHeaderAddressStyle(myAddress)
   v(1pt)
@@ -68,8 +66,7 @@
       columns: (1fr, auto),
       inset: 0pt,
       stroke: none,
-      footerStyle("Motivation for Admission"),
-      footerStyle([Written in Typst]),
+      footerStyle("Motivation for Admission"), footerStyle([Written in Typst]),
     ),
   )
 }

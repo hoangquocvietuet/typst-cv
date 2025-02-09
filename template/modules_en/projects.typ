@@ -1,3 +1,4 @@
+
 // Imports
 #import "../../lib.typ": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
@@ -8,15 +9,31 @@
 #cvSection("Projects")
 
 #cvEntry(
-  title: [C++ Developer],
-  logo: image("../src/logos/UET.png"),
-  society: [#link("https://github.com/HynDuf/mpboot")[MPBoot] - Computational Science and Engineering Lab],
-  date: [2021 - Present],
+  title: [Routing optimization],
+  logo: image("../src/logos/soict-logo.jpg"),
+  society: [SOICT Hackathon 2023],
+  date: [October 2023],
   location: [Ha Noi, Vietnam],
   description: list(
-    [Design, implement, and optimize algorithms for phylogenetic tree construction using C/C++.],
-    [Conduct performance tuning and optimization to ensure algorithms run efficiently on various hardware platforms.],
-    [Work with #link("https://scholar.google.co.nz/citations?user=dZyMRT0AAAAJ")[Dr. Hoang Thi Diep].],
+    [Solving the multi-depot vehicle routing problem with time windows and capacity constraints.],
+    [Utilizing Google OR-Tools and various heuristic methods for combinatorial optimization problems.],
+    [Awarded 3rd place in the Routing optimization track. ],
   ),
-  tags: ("Bioinformatics", "Phylogenetic", "Algorithm"),
+  tags: ("Google OR-Tools", "Combinatorial Optimization", "Heuristic Methods"),
+)
+
+#cvEntry(
+  title: [#link("https://dorahacks.io/buidl/16632")[BiUwU]],
+  logo: image("../src/logos/code-collision-logo.jpg"),
+  society: [Code Collision Hackathon 2023],
+  date: [August - October 2024],
+  location: [Online],
+  description: list(
+    [Building a platform where virtual KOLs can interact with fans in real-time, with gamified features, fan token rewards, and decentralized governance, creating a more immersive and rewarding livestream experience.],
+    [
+      Combining decentralized finance (DeFi) with AI-driven analytics and automation, creating a new paradigm for content creators to monetize their work and engage with their audience.
+    ],
+    [Awarded 2nd place in the Social track.],
+  ),
+  tags: ("Web3", "DeFi", "AI", "Vtubers"),
 )

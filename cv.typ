@@ -1,6 +1,6 @@
 /*
-* Functions for the CV template
-*/
+ * Functions for the CV template
+ */
 
 #import "@preview/fontawesome:0.5.0": *
 #import "./utils/injection.typ": inject
@@ -33,7 +33,6 @@
   if nonLatin {
     nonLatinName = metadata.lang.non_latin.name
   }
-
 
 
   // Styles
@@ -91,7 +90,7 @@
       } else if v != "" {
         box({
           // Adds icons
-          personalInfoIcons.at(k) + h(9pt)
+          personalInfoIcons.at(k) + h(5pt)
           // Adds hyperlinks
           if k == "email" {
             link("mailto:" + v)[#v]
@@ -134,8 +133,7 @@
   let makeHeaderPhotoSection() = {
     if displayProfilePhoto {
       box(image(profilePhotoPath, height: 3.6cm), radius: 50%, clip: true)
-    } else {
-    }
+    } else { }
   }
 
   let makeHeader(leftComp, rightComp, columns, align) = table(
@@ -190,7 +188,7 @@
       columns: (1fr, auto),
       inset: 0pt,
       stroke: none,
-      footerStyle(footerText), footerStyle([Written in Typst]),
+      footerStyle(footerText), footerStyle([]),
     ),
   )
 }
@@ -212,9 +210,7 @@
 ) = {
   let lang = metadata.language
   let nonLatin = isNonLatin(lang)
-  let beforeSectionSkip = eval(
-    metadata.layout.at("before_section_skip", default: 1pt),
-  )
+  let beforeSectionSkip = eval(metadata.layout.at("before_section_skip", default: 1pt))
   let accentColor = setAccentColor(awesomeColors, metadata)
 
   let sectionTitleStyle(str, color: black) = {
@@ -226,7 +222,6 @@
     sectionTitleStyle(title, color: accentColor)
   } else {
     sectionTitleStyle(title, color: accentColor)
-
   }
   v(-10pt)
   box(width: 1fr, line(stroke: 0.9pt + accentColor, length: 100%))
@@ -256,12 +251,13 @@
   awesomeColors: awesomeColors,
 ) = {
   let accentColor = setAccentColor(awesomeColors, metadata)
-  let beforeEntrySkip = eval(
-    metadata.layout.at("before_entry_skip", default: 1pt),
-  )
-  let beforeEntryDescriptionSkip = eval(
-    metadata.layout.at("before_entry_description_skip", default: 1pt),
-  )
+  let beforeEntrySkip = eval(metadata.layout.at("before_entry_skip", default: 1pt))
+  let beforeEntryDescriptionSkip = eval(metadata.layout.at("before_entry_description_skip", default: 1pt))
+  beforeEntryDescriptionSkip = if description == "" {
+    0pt
+  } else {
+    beforeEntryDescriptionSkip
+  }
 
   let entryA1Style(str) = {
     text(size: 10pt, weight: "bold", str)
@@ -282,13 +278,15 @@
     )
   }
   let entryDescriptionStyle(str) = {
-    text(
-      fill: regularColors.lightgray,
-      {
-        v(beforeEntryDescriptionSkip)
-        str
-      },
-    )
+    if str == "" { } else {
+      text(
+        fill: regularColors.lightgray,
+        {
+          v(beforeEntryDescriptionSkip)
+          str
+        },
+      )
+    }
   }
   let entryTagStyle(str) = {
     align(center, text(size: 8pt, weight: "regular", str))

@@ -1,6 +1,6 @@
 /*
-* Entry point for the package
-*/
+ * Entry point for the package
+ */
 
 /* Packages */
 #import "./cv.typ": *

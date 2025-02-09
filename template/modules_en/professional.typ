@@ -1,3 +1,4 @@
+
 // Imports
 #import "../../lib.typ": cvSection, cvEntry
 #let metadata = toml("../metadata.toml")
@@ -8,33 +9,32 @@
 #cvSection("Work Experience")
 
 #cvEntry(
-  title: [Research Intern],
-  society: [Ortho.fashion],
-  logo: image("../src/logos/ortho.jpg"),
-  date: [Jan 2024 - Jun 2024],
-  location: [Ho Chi Minh City, Vietnam - Remote],
-  description: list(
-    [
-Research virtual try-on systems.
-- Develop real-time cloth try-on using SMPL body models, implement cloth simulation with Extended Position Based Dynamics (XPBD) and Linear Blend Skinning (LBS), and cloth-body collision detection using PyOpenGL and Warp for GPU optimization.
-- Build a real-time virtual try-on pipeline with machine learning models for human detection, pose estimation, and cloth simulation.
-    ],
-  ),
-  tags: ("Virtual Try-on", "Computer Graphics", "Machine Learning"),
+  title: [Smart Contract Engineer],
+  society: [Kyber Network],
+  logo: image("../src/logos/kyber-logo-mark.png"),
+  date: [Jul 2024 - Present],
+  location: [Hanoi, Vietnam],
+  description: list([
+    Design and implement smart contracts for Kyber Network's multichain swap aggregator (KyberSwap).
+    - Apply best security practices to detect and resolve security vulnerabilities in smart contracts.
+    - Collaborate with other developers to integrate smart contracts into various DApps (Decentralized Applications).
+  ]),
+  tags: ("Blockchain", "DeFi", "Smart contract"),
 )
 
 #cvEntry(
-  title: [Software Engineer - Backend Developer Itern],
-  society: [Phygital Labs],
-  logo: image("../src/logos/phygital-lab.jpg"),
-  date: [Jun 2023 - Sep 2023],
-  location: [Ho Chi Minh City, Vietnam - Onsite],
+  title: [Head of Contest team],
+  society: [VNOI],
+  logo: image("../src/logos/VNOI-logo.png"),
+  date: [Sep 2022 - Present],
+  location: [Vietnam],
   description: list(
     [
-        Golang backend developer for the #link("https://nomion.io/")[Nomion] project (https://nomion.io/) (connect physical identity to the digital world via Blockchain infrastructure).
-        -  Build robust and efficient APIs for the backend server of Nomion.
-        - Interact with Blockchain infrastructure using Go Ethereum.
+      Suggesting and preparing algorithmic programming challenges for Bedao Contest.
+    ],
+    [
+      Managing and coordinating a team of 30 individuals to ensure efficient, timely, and professional completion of tasks.
     ],
   ),
-  tags: ("Golang", "MongoDB", "Blockchain"),
+  tags: ("Competive programming", "Algorithmic challenges", "Team management"),
 )

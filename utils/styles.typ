@@ -2,7 +2,7 @@
 
 #let latinFontList = ("New Computer Modern",)
 
-#let latinHeaderFont = ("New Computer Modern")
+#let latinHeaderFont = "New Computer Modern"
 
 #let awesomeColors = (
   skyblue: rgb("#0395DE"),

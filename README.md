@@ -13,13 +13,14 @@
 3. See `main.typ` for CV structure and `main_letter.typ` for cover letter. Change it to however you like.
 
 4. Run commands to generate `main.pdf` and `main_letter.pdf` respectively.
-    ```typst
-    typst compile main.typ
-    ```
 
-    ```typst
-    typst compile main_letter.typ
-    ```
+   ```typst
+   typst compile main.typ
+   ```
+
+   ```typst
+   typst compile main_letter.typ
+   ```
 
 ## Preview
 
@@ -34,4 +35,3 @@
 <div>
 <img src=".github/screenshots/cover_letter.jpg" alt="cover_letter" align="center">
 </div>
-

@@ -1,3 +1,4 @@
+
 // Imports
 #import "@preview/brilliant-cv:2.0.0": cvSection, cvPublication
 #let metadata = toml("../metadata.toml")
