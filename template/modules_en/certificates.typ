@@ -1,4 +1,3 @@
-
 // Imports
 #import "../../lib.typ": cvSection, cvHonor
 #let metadata = toml("../metadata.toml")
@@ -9,30 +8,26 @@
 #cvSection("Achievements")
 
 #cvHonor(
-  date: [2021],
-  title: [*Second Prize at the Vietnam National Olympiad in Informatics*],
-)
-
-#cvHonor(
-  date: [2021],
+  date: [2022],
   title: [
-    *Silver Medalist at the International Olympiad in Informatics* \
-    Ranked 68-th out of 351 contestants
+    *Second Prize in the Vietnam National Olympiad in Informatics* \
+    Vietnamese national programming contest for high school students. Competed individually to solve algorithms and data structure problems.
   ],
 )
 
 #cvHonor(
   date: [2022],
   title: [
-    *Champion of the 2022 ICPC Vietnam National Contest* \
-    Team _PostgreSQL_, ranked 1-st out of 402 teams
+    *Second Prize at the 2022 ICPC Vietnam National Programming Contest* \
+    ICPC is a global competitive programming competition. Competed in teams of 3 to solve 10-13 programming challenges in 5 hours. \
+    Ranked *13-th* out of *377* teams
   ],
 )
 
 #cvHonor(
-  date: [2024],
+  date: [2023],
   title: [
-    *Silver Medalist at the 2024 ICPC Asia Hanoi Regional Contest* \
-    Team _IBM Cloud_, ranked 7-th out of 147 teams
+    *Second Prize at the 2023 ICPC Vietnam National Programming Contest* \
+    Ranked *11-th* out of *414* teams \
   ],
 )

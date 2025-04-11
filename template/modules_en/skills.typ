@@ -14,12 +14,12 @@
 
 #cvSkill(
   type: [Programming Languages],
-  info: [C/C++ #hBar() Python #hBar() Javascript #hBar() Typescript #hBar() Solidity],
+  info: [C/C++ #hBar() Javascript #hBar() Typescript #hBar() Solidity #hBar() Sui Move, Aptos Move],
 )
 
 #cvSkill(
   type: [Tools],
-  info: [Linux #hBar() Git #hBar() Pytorch #hBar() Hardhat #hBar() Foundry],
+  info: [Linux #hBar() Git #hBar() Hardhat #hBar() Foundry],
 )
 
 // #cvSkill(
@@ -29,5 +29,5 @@
 
 #cvSkill(
   type: [Competitive Programming],
-  info: [#link("https://codeforces.com/profile/lanhf")[Codeforces] #hBar() #link("https://stats.ioinformatics.org/people/7656")[IOI]],
+  info: [#link("https://codeforces.com/profile/lanhf")[Codeforces] #hBar() #link("https://icpc.global/")[ICPC]],
 )

@@ -34,16 +34,15 @@ inject_keywords = true
 injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
 
 [personal]
-first_name = "Vũ"
-last_name = "Nguyễn Hoàng"
+first_name = "Việt"
+last_name = "Hoàng Quốc"
 
 # The order of this section will affect how the entries are displayed
 # The custom value is for any additional information you want to add
 [personal.info]
-github = "thepluck"
-linkedin = "vunguyenhoang"
-email = "nghoangvu24@gmail.com"
-# phone = "+8499999999"
+github = "hoangquocvietuet"
+linkedin = "hoang-quoc-viet-463b06244"
+email = "hoangquocvietuet@gmail.com"
 # gitlab = "mintyfrankie"
 # homepage = "jd.me.org"
 # orcid = "0000-0000-0000-0000"

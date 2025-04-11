@@ -249,6 +249,8 @@
   tags: (),
   metadata: metadata,
   awesomeColors: awesomeColors,
+  subtitle: "",
+  subdate: "",
 ) = {
   let accentColor = setAccentColor(awesomeColors, metadata)
   let beforeEntrySkip = eval(metadata.layout.at("before_entry_skip", default: 1pt))
