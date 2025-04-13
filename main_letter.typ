@@ -7,23 +7,23 @@
 #show: letter.with(
   metadata,
   myAddress: "Ha Noi, Vietnam",
-  recipientName: "RECIPIENT_NAME",
-  recipientAddress: "RECIPIENT_ADDRESS",
+  recipientName: "Coinbase",
+  recipientAddress: "USA",
   date: datetime.today().display(),
-  subject: "Subject: Motivation for admission",
-  signature: image("hynduf/src/signature.png"),
+  subject: "Subject: Motivation for Smart Contract Engineer",
+  signature: image("template/src/signature.png"),
 )
 
-Dear RECIPIENT_SALUTATION,
+Dear Coinbase Recruiter and Hiring Team,
 
-I am writing to express my strong interest in applying for the PROGRAM_NAME at INSTITUTION_NAME. My fascination with FIELD_OF_INTEREST has grown significantly over the past few years, especially as I have encountered its practical applications in APPLICATION_CONTEXT.
+I am writing to express my strong interest in applying for the Smart Contract Engineer. My fascination with smart contract has grown significantly over the past few years, especially as I have encountered its practical applications in real-world projects. I would love to join hackathon, web3 events, meme coin, everything about web3.
 
-Having reviewed the curriculum in detail, I am particularly impressed by the comprehensive coverage of both theoretical and practical aspects of PROGRAM_NAME. The opportunity to learn from experienced faculty and engage in hands-on projects is something I am truly excited about. I am confident that this program will provide me with the knowledge and skills necessary to excel in this field.
+Having reviewed the curriculum in detail, I am particularly impressed by the comprehensive coverage of both theoretical and practical aspects of smart contract. The opportunity to learn from experienced faculty and engage in hands-on projects is something I am truly excited about. I am confident that this program will provide me with the knowledge and skills necessary to excel in this field.
 
-Furthermore, I am deeply impressed by the professionalism and dedication demonstrated by INSTITUTION_NAME. From the informative and well-structured website to the highly regarded INSTITUTION_EVENT_OR_FEATURE, it is clear that your institution values excellence and innovation. This aligns perfectly with my own passion for continuous learning and growth.
+Furthermore, I am deeply impressed by the professionalism and dedication demonstrated by Coinbase, from the blockchain to the wallet and the impact in web3, it is clear that your institution values excellence and innovation. This aligns perfectly with my own passion for continuous learning and growth.
 
-Thank you for considering my application. I look forward to the upcoming entrance exams.
+Thank you for considering my application. I look forward to the upcoming interview.
 
 Sincerely,
 
-Huynh Tien Dung
+Hoang Quoc Viet

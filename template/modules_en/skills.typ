@@ -29,5 +29,5 @@
 
 #cvSkill(
   type: [Competitive Programming],
-  info: [#link("https://codeforces.com/profile/lanhf")[Codeforces] #hBar() #link("https://icpc.global/")[ICPC]],
+  info: [#link("https://codeforces.com/profile/Lihwy")[Codeforces] #hBar() #link("https://icpc.global/")[ICPC]],
 )
